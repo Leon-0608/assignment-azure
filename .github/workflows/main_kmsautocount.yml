@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'KMSAutocount'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F6919DE1C5B74620BC55763015268022 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CBE19E3D06A14577BFDAB6FB647E9EB9 }}
           package: .
