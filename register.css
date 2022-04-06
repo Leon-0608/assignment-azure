@@ -1,0 +1,109 @@
+/* CSS reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0,50,0.5),rgba(0,0,50,0.5)),url(Danceclub.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(8px);
+}
+
+h1 {
+    font-size: 60px;
+    padding: 60px 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+}
+
+.register-box{
+    max-width: 60%;
+    float: none;
+    margin: auto;
+}
+
+.register-left{
+    background-color: rgb(31, 31, 46);
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 75px;
+}
+
+label, h2, h5{
+    color: white;
+    font-size: 25px;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    letter-spacing: 3px;
+}
+
+h5 {
+    padding-bottom: 10px;
+}
+
+input[type=text] {
+   width: 50%;
+   border-radius: 20px;
+   font-size: 20px;
+}
+
+#event {
+    background-color: white;
+    color: deeppink;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+option {
+    font-size: 25px;
+    color: deeppink;
+}
+
+.button {
+    background-color: deeppink;
+    border-color: white;
+    padding: 10px 40px;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: white;
+    border-color: deeppink;
+    color: deeppink;
+}
+
+input[type=reset] {
+   position: relative;
+   left: 10px;
+}
+
+p{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+

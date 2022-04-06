@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Aug 2021, 9:26:34 pm
+    Author     : acer
+*/
+
+/* CSS reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url('dance-background.jpg');
+}
+
+@media screen and (max-width: 1175px) {
+    body {
+        background-image: url('phone-background.jpg');
+        background-size: 100%;
+    }
+}
+
+div > h1 {
+    text-align: left;
+    color: white;
+    margin-left: 2%;
+}
+
+div > p {
+    color: white;
+    width: 70%;
+    text-align: left;
+    padding-left: 5%;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+body > div > h1 {
+    font-size: 50px;
+    padding: 60px 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+body > div > h1 > span {
+    font-size: 75px;
+    color: violet;
+    text-shadow: 3px 4px #cc00ff;
+}
+
+p {
+    font-size: 25px;
+    
+}
+
+.button {
+    margin-bottom: 40px;
+}
+
+.learn-more {
+    display: block;
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 165px;
+    letter-spacing: 3px;
+    color: white;
+    background-color: deeppink;
+    padding: 20px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.learn-more:hover {
+    animation-name: button-change;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes button-change {
+    100% {
+        background-color: white;
+        color: deeppink;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+
+
+

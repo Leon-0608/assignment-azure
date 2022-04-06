@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Aug 2021, 9:26:34 pm
+    Author     : acer
+*/
+
+/* CSS reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: url('dance-background.jpg');
+}
+
+@media screen and (max-width: 1175px) {
+    body {
+        background-image: url('phone-background.jpg');
+        background-size: 100%;
+    }
+}
+
+h1 {
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    margin: 20px 5px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+}
+
+tr, tr {
+    color: white;
+    font-size: 20px;
+}
+
+.left {
+    box-sizing: border-box;
+    background-color: rgb(38, 38, 38);
+    padding: 40px 50px;
+    float: left;
+    display: inline-block;
+    flex-basis: 15%;
+}
+
+.right {
+    box-sizing: border-box;
+    background-color: rgb(51, 51, 51);
+    padding: 40px 50px;
+    float: right;
+    display: inline-block;
+    flex-basis: 85%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+#first-submenu {
+    margin-top: 30px;
+}
+
+.submenu {
+    display: block;
+    margin-bottom: 50px; 
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.submenu:hover {
+    color: deeppink;
+}
+
+.add, .update, .delete {
+    padding: 10px 20px;
+    color: white;
+    background: deeppink;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-width: 5px;
+    border-color: white;
+    width: 300px;
+}
+
+.add:hover, .update:hover, .delete:hover{
+    color: deeppink;
+    background: white;
+    border-color: deeppink;
+}
+
+.update, .delete {
+    margin-left: 35px;
+}
+
+td, th {
+    padding: 10px 20px;
+}
+
+table {
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+td, th{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+input[type='checkbox'] {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+input[type='text'] {
+    font-size: 20px;
+}
+
+input[type='text']:focus {
+    border-style: solid;
+    border-width: 5px;
+    border-color: deeppink;
+}
+
+#search-bar {
+    margin-bottom: 30px;
+}
+
+.search {
+    font-size: 20px;
+    background-color: deeppink;
+    color: white;
+    border-radius: 5px;
+    display: inline;
+}
+
+.search:hover {
+    background-color: white;
+    color: deeppink;
+}
+
+select {
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+
+.numOfRow {
+    margin-top: 10px;
+}
+
+th {
+    background-image: linear-gradient(to bottom right, mediumpurple, lightseagreen);
+}
+
+
+
+
+
+

@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0,50,0.5),rgba(0,0,50,0.5)),url(Danceclub.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(8px);
+}
+
+h1 {
+    font-size: 60px;
+    padding: 60px 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+}
+
+.login-box{
+    max-width: 60%;
+    float: none;
+    margin: auto;
+    
+}
+.login{
+    background-color: rgb(31, 31, 46);
+    padding: 40px;
+    border-radius: 25px;
+}
+
+label, h5{
+    color: white;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 30px 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+}
+h5 {
+    padding-bottom: 10px;
+}
+
+input[type=text], input[type=password] {
+   width: 50%;
+   border-radius: 20px;
+   font-size: 20px;
+}
+
+#event {
+    background-color: white;
+    color: deeppink;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+option {
+    font-size: 25px;
+    color: deeppink;
+}
+
+.button {
+    background-color: deeppink;
+    border-color: white;
+    padding: 10px 40px;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: white;
+    border-color: deeppink;
+    color: deeppink;
+}
+
+input[type=reset] {
+   position: relative;
+   left: 10px;
+}
+
+p{
+    color: red;
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+.content-table{
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    min-width: 500px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.content-table thead tr{
+    background-color: #009999;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.85;
+}
+.content-table th{
+    padding: 12px 15px;
+}
+.content-table td{
+    padding: 12px 15px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid black;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #99ffff;
+    opacity: 0.85;
+}
+.content-table tbody tr:nth-of-type(odd){
+    background-color: #cccccc;
+    opacity: 0.85;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009999;
+}
+.content-table tbody tr.activerow{
+    font-weight: bold;
+    color: #ffff33;
+}

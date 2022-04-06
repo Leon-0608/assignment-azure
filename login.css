@@ -1,0 +1,131 @@
+/* CSS reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background: url(Danceclub.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 60px 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+}
+
+.login-box{
+    max-width: 40%;
+    float: none;
+    margin: auto;
+    
+}
+.login{
+    background-color: rgb(31, 31, 46);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+label, h5{
+    color: white;
+    font-size: 25px;
+}
+
+h5 {
+    padding-bottom: 10px;
+}
+
+input[type=text], input[type=password] {
+   width: 100%;
+   border-radius: 5px;
+   font-size: 20px;
+}
+
+#event {
+    background-color: white;
+    color: deeppink;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+option {
+    font-size: 25px;
+    color: deeppink;
+}
+
+.button {
+    background-color: deeppink;
+    border-color: white;
+    padding: 20px 125px;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: white;
+    border-color: deeppink;
+    color: deeppink;
+}
+
+input[type=reset] {
+   position: relative;
+}
+
+p{
+    color: red;
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+.form-control:focus {
+    border-color: deeppink;
+    border-width: 5px;
+}
+
+.form-group {
+    margin: 5px 20px;
+    margin-right: 40px;
+}
+
+.submit, .cancel {
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1175px) {
+    body {
+        background-image: url('phone-background.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+.admin{
+    color: white;
+     margin: 5px 20px;
+    text-decoration: none;
+}
+
+.admin:hover{
+    color: deeppink;
+}
